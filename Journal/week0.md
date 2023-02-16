@@ -29,4 +29,9 @@ Typed ```aws sts get-caller-identity``` got an error :( <br>
 ![Proof of AWS CLI](assets/week0%20gitpod%20aws%20cli%20login.png)
 
 #### AWS Budgets
-![AWS Budgets]()
+![AWS Budgets](assets/week0%20budgets.png)
+
+#### Logical Cruddur architecture
+![Architecture](assets/week0%20lucid%20architecture.png)
+<br>
+[Lucid chart share link](https://lucid.app/lucidchart/79269e18-aa88-4c4d-aa10-fb8dcd7f43a2/edit?viewport_loc=-186%2C211%2C2349%2C905%2C0_0&invitationId=inv_d31687f9-6dfa-4e34-8d71-8b1f24c987c7) 
