@@ -2,10 +2,12 @@
 ### Required H/W Tasks
 
 <ol>
+ <li> Destroy your root account credentials, Set MFA, IAM role</li>
  <li> Install AWS CLI and verify it works </li>
- <li>Destroy your root account credentials, Set MFA, IAM role</li>
+ <li> Create a budget </li>
+ <li> Create a billing alarm </li>
  <li>Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts</li>
- <li>Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.</li>
+ 
 </ol>
 
 ---
@@ -25,3 +27,6 @@ Typed ```aws sts get-caller-identity``` got an error :( <br>
 ```aws configure ``` to configure credentials and to look up the credentials ``` aws configure list ```
 
 ![Proof of AWS CLI](assets/week0%20gitpod%20aws%20cli%20login.png)
+
+#### AWS Budgets
+![AWS Budgets]()
