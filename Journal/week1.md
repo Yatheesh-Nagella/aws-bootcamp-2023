@@ -77,6 +77,15 @@ Run in background
 ```sh
 docker container run --rm -p 4567:4567 -d backend-flask
 ```
+append to the url to `/api/activities/home`
+you should get back json
+![Back-end flask](assets/Back-end%20flask.png)
+
+In other terminal:
+```
+docker compose up
+```
+![docker compose up](assets/docker%20compose%20up.png)
 
 Return the container id into an Env Vat
 ```sh
