@@ -7,7 +7,7 @@ This is the starting codebase that will be used in the FREE AWS Cloud Project Bo
 
 ![Cruddur Graphic](Journal/assets/cruddur-banner.jpg)
 
-![Cruddur Screenshot](Journal/assets/cruddur%20screenshot.png)
+![Cruddur Screenshot](Journal/assets/cruddur-yatheesh.png)
 
 ## Journaling Homework
 
