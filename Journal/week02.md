@@ -115,4 +115,4 @@ AWS xray subsegmentation
 ![subsegmentation](Journal/assets/xraysubsegmentation.png)
 
 AWS xray subsegmented mock-data
-![subsegmented mock-data](Journal/assets/xray subsegmentation mock-data.png)
+![subsegmented mock-data](Journal/assets/xray%20subsegmentation%20mock-data.png)
