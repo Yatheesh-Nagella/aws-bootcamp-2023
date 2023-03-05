@@ -109,10 +109,10 @@ aws xray get-service-graph --start-time $(($EPOCH-600)) --end-time $EPOCH
 ```
 
 AWS xray service map 
-![service map](Journal/assets/xrayservice-map.png)
+![service map](assets/xray-service-map.png)
 
 AWS xray subsegmentation
-![subsegmentation](Journal/assets/xraysubsegmentation.png)
+![subsegmentation](assets/xray-subsegmentation.png)
 
 AWS xray subsegmented mock-data
-![subsegmented mock-data](Journal/assets/xray%20subsegmentation%20mock-data.png)
+![subsegmented mock-data](assets/xray-subsegmentation-mock-data.png)
