@@ -107,3 +107,12 @@ We need to add these two env vars to our backend-flask in our `docker-compose.ym
 EPOCH=$(date +%s)
 aws xray get-service-graph --start-time $(($EPOCH-600)) --end-time $EPOCH
 ```
+
+AWS xray service map 
+![service map](Journal/assets/xray%20service-map.png)
+
+AWS xray subsegmentation
+![subsegmentation](Journal/assets/xray%20subsegmentation.png)
+
+AWS xray subsegmented mock-data
+![subsegmented mock-data](Journal/assets/xray%20subsegmentation%20mock-data.png)
