@@ -22,7 +22,6 @@ cd frontend-react-js
 npm i aws-amplify --save
 ```
 
-### 2. Install and configure Amplify client-side library for Amazon Congito
 
 #### Configure Amplify
 I configured amplify by importing it into my `App.js` and add the configure script below
