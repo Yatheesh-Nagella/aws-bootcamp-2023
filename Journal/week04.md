@@ -93,9 +93,11 @@ To create an RDS instance running a postgres engine while also trying to maintai
   
   ### Errors
   
-  1. Docker run out of space:
+1. Docker run out of space:
 
 use ```docker system prune```
+
 2. Couldn't crud new messages - Error in creating new activities
+
 3. CloudWatch logs
     
