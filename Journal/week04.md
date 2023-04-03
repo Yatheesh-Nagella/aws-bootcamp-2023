@@ -97,7 +97,7 @@ To create an RDS instance running a postgres engine while also trying to maintai
 
 2. Couldn't crud new messages - Error in creating new activities - ```need resolving```
 
-![Cruddur-activities](assets/First_Crud_activity_error .png)
+![Cruddur-activities](assets/First_Crud_activity_error%20.png)
 
 3. CloudWatch logs - ```need resolving```
     
