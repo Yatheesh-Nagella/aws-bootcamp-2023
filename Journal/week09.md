@@ -120,5 +120,5 @@ Back in the pipeline console, created a new pipeline with the following configur
     - Service name: backend-flask
 
 I created the pipeline and waited for it to run. Please see result below:
-![build2](./images/completedbuild.png)
+![build2](./assets/cicd-completedbuild.png)
 
