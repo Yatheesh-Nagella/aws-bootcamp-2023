@@ -1,0 +1,28 @@
+#! /usr/bin/bash
+
+# Prompt the user to enter their AWS access key ID
+read -p "Enter your AWS access key ID: " access_key_id
+
+# Prompt the user to enter their AWS secret access key
+read -p "Enter your AWS secret access key: " secret_access_key
+
+# Prompt the user to enter their default AWS region
+read -p "Enter your default AWS region: " region
+
+# Check if the access key ID, secret access key, and region are provided
+if [ -z "$access_key_id" ] || [ -z "$secret_access_key" ] || [ -z "$region" ]
+then
+    echo "Error: AWS credentials and default region are required"
+    exit 1
+fi
+
+# Configure the AWS credentials and default region using the AWS CLI
+aws configure set aws_access_key_id "$access_key_id"
+aws configure set aws_secret_access_key "$secret_access_key"
+aws configure set default.region "$region"
+
+# Verify that the configuration was successful
+echo "---- Verifying caller-identity ----"
+aws sts get-caller-identity
+echo "---- Configure list ----"
+aws configure list
